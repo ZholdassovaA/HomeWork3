@@ -14,7 +14,7 @@ public class WikiTest {
         // Открыть страницу Selenide в Github
         open("https://github.com/selenide/selenide");
 
-        // Перейти в раздел Wiki проекта
+        // Перейти в раздел Wiki
         $("#wiki-tab").click();
 
         // Убедиться, что в списке страниц (Pages) есть страница SoftAssertions
